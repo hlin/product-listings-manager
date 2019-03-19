@@ -7,7 +7,7 @@
 %global modname product_listings_manager
 
 Name: product-listings-manager
-Version: 0.3.3
+Version: 0.3.4
 Release: 1%{?dist}
 Summary: HTTP interface to composedb
 
@@ -93,6 +93,9 @@ py.test-2.7 -v %{modname}/tests
 %endif
 
 %changelog
+* Tue Mar 19 2019 Haibo Lin <hlin@redhat.com> 0.3.4-1
+- Shorten commit message of tito tag command (hlin@redhat.com)
+
 * Mon Mar 18 2019 Haibo Lin <hlin@redhat.com> 0.3.3-1
 - Use latest module record (hlin@redhat.com)
 - Fix positive overrides ignored issue (hlin@redhat.com)
